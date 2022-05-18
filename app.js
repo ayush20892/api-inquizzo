@@ -8,7 +8,11 @@ const app = express();
 // Middlewares
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://Inquizzo.vercel.app"],
+    origin: [
+      "http://localhost:3000",
+      "https://in-quizzo.vercel.app",
+      "https://in-quizzo-42ehoo7l7-cjinc121.vercel.app",
+    ],
     credentials: true,
   })
 );
